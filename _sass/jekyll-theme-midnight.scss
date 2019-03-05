@@ -168,7 +168,7 @@ dt {
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
   nav {
-    max-width: 650px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 0 10px;
     background: blue;
@@ -257,13 +257,20 @@ section {
       text-align: center;
       line-height: 36px;
     }
+    h4 {
+      color: #d7cfbe;
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+    }
 
     p {
       color: #d7cfbe;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 18px;
-      text-align: center;
+      text-align: left;
     }
 
     .credits {

@@ -2,11 +2,13 @@
 layout: default
 title:  "Machine Learning"
 date:   2019-02-03
-categories: [Coursera Reviews]
+category: [Coursera Reviews]
 ---
-# {{page.title}} - {{page.categories}}
+# {{page.title}}
 
-So I recently finished this course on Coursera after having started  around the ring of the new year. “Wow, so fast!”…well, not really, as  I’d tinkered with a lot of the ideas in the class already. I thought  it’d be a good primer for the Deep Learning specialization, and while  that is not untrue I was actually pleasantly surprised by a few things  about this course.
+#### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
+
+I recently finished this course on Coursera after having started  around the ring of the new year. While it seemed fast,  I’d tinkered with a lot of the ideas in the class already. I thought  it’d be a good primer for the Deep Learning specialization, and while  that is not untrue I was actually pleasantly surprised by a few things  about this course.
 
 First of all I learned a decent amount of math. Not in the sense that  there was any notation I didn’t understand or high-level concepts for  the topics I’d seen I didn’t understand, but the nitty-gritty of nearly  every model I saw was *clarified* in a way I didn’t expect. One  of my only wishes was that the class included a bit more of the  mathematical rigor, but I think a class or textbook in linear algebra  ought to do the trick. Beyond that I had almost no critiques for the  class-even Matlab, which I thought would be an overly-tooled pain,  turned out to be an excellent prototyping tool as was stated. I decided  to switch to Octave afterwards because it is a much smaller footprint  and it is obviously a free tool, but I was pleasantly surprised at how a  mathematical modelling system helped bring clarity while I was  designing more math-focused algorithms. This certainly is not the  approach for every program (and indeed some I’ve written for other  courses the most advanced math was C buffers), but for these kind of  algorithms where small but powerful mathematical ideas guide the whole  program and can be easily tweaked, a prototyping system that allows  rapid dynamic change to the equations was a great tool.
 

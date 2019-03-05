@@ -2,10 +2,14 @@
 layout: default
 title:  "Deep Learning and Neural Networks"
 date:   2019-02-12
-categories: [Coursera Reviews]
+category: [Coursera Reviews]
 ---
 
-# {{page.title}} - {{page.categories}}
+# {{page.title}}
+
+#### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
+
+---
 
 This first course in the DeepLearning.ai specialization on Coursera  honestly went pretty fast for me, and I don’t have too much to say about  it. As usual for Andrew Ng’s courses (or what seems to be the norm,  this being the second of two courses this way) there was a nice balance  between mathematical rigor and choosing an approach that intuitively  made sense without bogging down in the details. As usual I would’ve  liked more mathematical challenge, but the way the material was all  presented was fine and the course likely only went quickly because I’d  previously tinkered with L layered neural networks and I recently took  the machine learning course.
 

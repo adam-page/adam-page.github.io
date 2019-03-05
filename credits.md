@@ -10,5 +10,5 @@ TODO:
 
 1. blog code
 2. theme
-3. pictures (Kalen and unsplash)
+3. pictures (Kalen, unsplash, icon site)
 4. other thank yous

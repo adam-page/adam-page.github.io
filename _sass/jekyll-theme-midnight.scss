@@ -317,6 +317,21 @@ section {
     margin-top: 40px;
   }
   nav {
-    display: none;
+    max-width: 480px;
+    li {
+        width: 56.5px;
+      a {
+        width: 30px !important;
+        font-size: 9px !important;
+        line-height: 9px !important;
+        white-space: nowrap !important;
+      }
+      &.menu {
+        margin: 0px !important;
+      }
+      &.title {
+        display: none !important;
+      }
+    }
   }
 }

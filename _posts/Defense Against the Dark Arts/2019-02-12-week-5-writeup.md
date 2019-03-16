@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
 
-—
+----
 
 This week was focused on bootkits and rootkits and how an unsuspecting user may be fooled into allowing a hacker to have administrator privileges or simply bypass the need by being a part of the boot process. Its an interesting topic and on the whole I actually enjoyed this week as much as any other in the course, but the thing that really caught my attention and seems worth discussing is the whole secure boot business that came up briefly when the lecturer mentioned Microsoft's efforts to stop bootloaders from having a foot in the door.
 

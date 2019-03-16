@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
 
-—
+----
 
 This week's content for Defense Against the Dark Arts seemed to have two big ideas linked by one overarching theme: volatility. First off the open source software Volatility is a useful snapshot tool that can be used to grab snapshots of memory; useful for the cyber analyst that may not want to stay on site where malware is found. Beyond that the hierarchy of volatility is an important metric for anyone looking to recover sensitive and potentially harmful files as it allows a pragmatic approach to saving live data that will not survive a power restart. The other big picture item this week was the USB stick that contained some of the malware used in the Sony breach; this was a look at how this volatility can be important, as well as how hard drive file recovery tools allow the investigator to recover things an attacker may have wanted disposed of.
 

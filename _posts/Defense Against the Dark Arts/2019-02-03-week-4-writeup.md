@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
 
-—
+----
 
 This was a week of blanks filled and light bulbs illuminating, in a number of ways...
 

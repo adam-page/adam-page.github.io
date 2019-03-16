@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
 
-—
+—-
 
 This week in DADA was a refreshing change as there was a decent amount of code and many ideas that required knowledge from Computer Networks, which I believe is a prerequisite.
 

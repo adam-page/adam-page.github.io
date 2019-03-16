@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }} 
 
-—
+----
 
 This week finally felt like I was firing on all cylinders for both the material and the lab. The week's focus was mostly on malware defense and high level concepts in multi-level coverage as well as an introduction to Yara, a language-based approach to malware categorization and identification. Overall I had a much easier time processing this information at a theoretical level as well as putting it into practice by using Yara to filter malware from regular system files.
 

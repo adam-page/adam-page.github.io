@@ -10,7 +10,7 @@ category: [Defense Against the Dark Arts]
 
 #### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }}
 
-—
+----
 
 This week was just plain old-fashioned fun for me. From a topic standpoint I think it was perhaps the one I planned on learning the least about-anyone who's used the internet with a decent understanding knows the risks and exploits associated with the internet-but I didn't expect the application of that knowledge to the URL classifier to be so much fun. I went pretty in-depth in that writeup, and if I get permission I may add it as another post to this portion of the site, but I would like to talk about some of my overall thoughts of the methods I used (and are used in the industry with better performance/optimizations) and what their impact really is on the bigger picture.
 

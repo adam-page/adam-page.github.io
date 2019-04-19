@@ -10,37 +10,7 @@ category: [That Game]
 
 ### Adam Page
 
-```mermaid
-graph LR
-	char["Character"]
-	char-- max 100 -->Level
-	char-->GeneralUnlocks
-	slot["Class Slots"]
-	app["Appearance"]
-	stat["Stat Allocation"]
-	job["Job Levels"]
-	weapon["Weaponss"]
-	char-- 5 presets -->slot
-	slot-- glamour -->app
-	slot-- 10 + 2 * level -->stat
-	slot-- 1 * level -->job
-	slot-- 3 equipment slots, main/off weapon -->weapon
-	app-->Facial
-	app-->Height/Weight
-	app-->Colors
-	stat-->Strength
-	stat-->Agility
-	stat-->Dexterity
-	stat-->Intelligence
-	stat-->Charisma
-	job-->Martial
-	job-->Ranged
-	job-->Athletics
-	job-->Light
-	job-->Dark
-	weapon-- cap at char lvl -->WeaponLevel
-	weapon-- 1 skill ever WeaponLevel/5 -->WeaponSkills
-```
+![MessageSeq](/assets/img/class.png)
 
 ## Character
 

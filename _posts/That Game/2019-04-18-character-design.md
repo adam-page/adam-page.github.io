@@ -6,7 +6,11 @@ category: [That Game]
 
 ---
 
-# That Game Character Design
+# {{page.title}}
+
+#### [{{page.category}}](/blog/#{{page.category[0] | downcase | url_escape | strip | replace: ' ', '-' }})&mdash;{{ page.date | date: "%B %-d, %Y" }}
+
+------
 
 ### Adam Page
 

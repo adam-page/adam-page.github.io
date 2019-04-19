@@ -24,7 +24,7 @@ graph LR
 	slot-- glamour -->app
 	slot-- 10 + 2 * level -->stat
 	slot-- 1 * level -->job
-	slot-- 3 equipment slots, main/off weapon -->weapon
+	slot-- main/off weapon and armor preset -->weapon
 	app-->Facial
 	app-->Height/Weight
 	app-->Colors
@@ -32,10 +32,10 @@ graph LR
 	stat-->Agility
 	stat-->Dexterity
 	stat-->Intelligence
-	stat-->Charisma
-	job-->Martial
-	job-->Ranged
-	job-->Athletics
+	stat-->Vitality
+	job-->Offensive
+	job-->Defensive
+	job-->Utility
 	job-->Light
 	job-->Dark
 	weapon-- cap at char lvl -->WeaponLevel
@@ -64,7 +64,7 @@ Ah the bread and butter….
 
 #### Job levels
 
-A job gains levels as you level your class. Job levels can also be gained at max level (because your jobs might not be max), but basically you get some % of experience based on your allocation. For example if I have 30 points in martial and 10 in light, if I get 100 experience I get 75 experience in martial and 25 in light.
+A job gains levels as you level your class. Job levels can also be gained at max level (because your jobs might not be max), but basically you get some % of experience based on your allocation. For example if I have 30 points in offensive and 10 in light, if I get 100 experience I get 75 experience in martial and 25 in light.
 
 #### Job Allocation Caps
 
@@ -72,7 +72,7 @@ A job gains levels as you level your class. Job levels can also be gained at max
 
 #### Job Combinations
 
-So max of three combinations, but not required. Ultimately you have 100 job points at level 100 and whatever combinations you produce are up to you!
+So max of 3 combinations, but not required. Ultimately you have 100 job points at level 100 and whatever combinations you produce are up to you! Alternatively we could just do an “anything goes” style, allowing for the super novice to become viable depending on the weapon used.
 
 #### Alternate Ideas
 
@@ -88,3 +88,5 @@ A weapon has an independent  level, not based on character level. To level a wea
 
 1. A single linear path of weapon skills unique to the weapon. More weapons needed here.
 2. A tree of multiple skill paths that make the number of weapons needed less, but the skill trees here harder to balance and design.
+
+I’m starting to favor #1 here, and that would make adding new weapon types, with interesting skills, a thing. I think for magics as noted one of the first skills you learn is how to switch a sort of elemental grip that you have, thereby changing the element you’re using. This would also make balancing with jobs easier, as I think I’ll probably favor a max set of 3 for that.

@@ -84,6 +84,11 @@ strong {
   padding: 0 20px;
 }
 
+pre {
+    width: 140%;
+    margin-left: -20%;
+}
+
 section img {
   max-width: 100%;
 }
@@ -154,7 +159,6 @@ dt {
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
-
 
 #header {
   z-index: 100;

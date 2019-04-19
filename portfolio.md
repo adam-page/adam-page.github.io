@@ -240,43 +240,31 @@ def get_X(urldata):
     """
     mus = {}
     sig_sqs = {}
-    host, mus['host'], sig_sqs['host'] = \
-    	normalize(get_feat(urldata, 'host_len'))
-    url, mus['url'], sig_sqs['url'] = \
-    	normalize(get_feat(urldata, 'url_len'))
+    host, mus['host'], sig_sqs['host'] = normalize(get_feat(urldata, 'host_len'))
+    url, mus['url'], sig_sqs['url'] = normalize(get_feat(urldata, 'url_len'))
     dport = one_hot_port(get_feat(urldata, 'default_port'))
-    domain, mus['domain'], sig_sqs['domain'] = \
-    	normalize(get_feat(urldata, 'domain_age_days'))
-    tokens, mus['tokens'], sig_sqs['tokens'] = \
-    	normalize(get_feat(urldata, 'num_domain_tokens'))
-    ips, mus['ips'], sig_sqs['ips'] = \
-    	normalize([len(ip) if ip is not None else 0 \
-                   for ip in get_feat(urldata, 'ips')])
-    alexa, mus['alexa'], sig_sqs['alexa'] = \
-    	normalize(get_feat(urldata, 'alexa_rank'))
+    domain, mus['domain'], sig_sqs['domain'] = normalize(get_feat(urldata, 'domain_age_days'))
+    tokens, mus['tokens'], sig_sqs['tokens'] = normalize(get_feat(urldata, 'num_domain_tokens'))
+    ips, mus['ips'], sig_sqs['ips'] = normalize([len(ip) if ip is not None else 0 \
+                                                 for ip in get_feat(urldata, 'ips')])
+    alexa, mus['alexa'], sig_sqs['alexa'] = normalize(get_feat(urldata, 'alexa_rank'))
     scheme = one_hot_scheme(get_feat(urldata, 'scheme'))
-    path, mus['path'], sig_sqs['path'] = \
-    	normalize(get_feat(urldata, 'path_len'))
+    path, mus['path'], sig_sqs['path'] = normalize(get_feat(urldata, 'path_len'))
     port = one_hot_port(get_feat(urldata, 'port'))
-    mx, mus['mx'], sig_sqs['mx'] = \
-    	normalize([len(mxhost) for mxhost in get_feat(urldata, 'mxhosts')])
-    ptokens, mus['ptokens'], sig_sqs['ptokens'] = \
-    	normalize(get_feat(urldata, 'num_path_tokens'))
+    mx, mus['mx'], sig_sqs['mx'] = normalize([len(mxhost) for mxhost in get_feat(urldata, 'mxhosts')])
+    ptokens, mus['ptokens'], sig_sqs['ptokens'] = normalize(get_feat(urldata, 'num_path_tokens'))
 
-    X = np.concatenate((host, url, dport, domain, tokens, ips, alexa, \
-                        scheme, path, port, mx, ptokens), axis = 1)
+    X = np.concatenate((host, url, dport, domain, tokens, ips, alexa, scheme, path, port, mx, ptokens), axis = 1)
     return X, mus, sig_sqs
 
 def f1_score(X, Y, Thetas):
     AL, _ = forward_prop(X, Thetas)
     Y_hat = np.round(AL)
-    true_pos = [1 if Y_hat.T[i] == 1 and Y.T[i] == 1 else 0 \
-                for i in range(len(Y_hat.T))]
+    true_pos = [1 if Y_hat.T[i] == 1 and Y.T[i] == 1 else 0 for i in range(len(Y_hat.T))]
     true_pos = np.sum(true_pos)
     pred_pos = np.sum(Y_hat)
     precision = true_pos / pred_pos
-    false_neg = [1 if Y_hat.T[i] == 0 and Y.T[i] == 1 else 0 \
-                 for i in range(len(Y_hat.T))]
+    false_neg = [1 if Y_hat.T[i] == 0 and Y.T[i] == 1 else 0 for i in range(len(Y_hat.T))]
     false_neg = np.sum(false_neg)
     recall = true_pos / (true_pos + false_neg)
     false_ratio = false_neg / len(Y_hat.T)

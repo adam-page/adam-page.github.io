@@ -1,3 +1,12 @@
+---
+layout: default
+title:  "That Game Character Design"
+date:   2019-04-18
+category: [That Game]
+
+
+---
+
 # That Game Character Design
 
 ### Adam Page

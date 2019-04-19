@@ -15,7 +15,7 @@ The icons are all under free licenses, much like the Unsplash images, but I woul
 
 ### Theme: [Midnight Theme](https://github.com/pages-themes/midnight)
 
-I have slightly modified the Jekyll theme Midnight for my use here, although other than adding some buttons to the top bar and changing their color from green to blue, the credit all goes to the creator of this dark theme for GitHub Pages. I also added Mermaid parsing with the script found at: https://github.com/knsv/mermaid/issues/772 by user yk-liu.
+I have slightly modified the Jekyll theme Midnight for my use here, although other than adding some buttons to the top bar and changing their color from green to blue, the credit all goes to the creator of this dark theme for GitHub Pages. I also added Mermaid parsing with the script found [here](https://github.com/knsv/mermaid/issues/772) under the post by user yk-liu.
 
 ### Hosting: [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/docs/github-pages/)
 

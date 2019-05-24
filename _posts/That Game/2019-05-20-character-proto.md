@@ -200,7 +200,7 @@ Lastly there’s a lot more room for improvement and expansion here. The idea wa
 ### Job Trees
 
 ```mermaid
-graph LR
+graph TD
 	Martial-->Attack
 	Martial-->Defense
 	Martial-->Exposure

@@ -1,3 +1,10 @@
+---
+layout: default
+title:  "Combat Notes"
+date:   2019-05-23
+category: [That Game]
+---
+
 # Combat Notes
 
 #### From meeting on 05/23/2019
@@ -6,7 +13,8 @@
 
 ### Hex ground layout
 
-* collision with non-player enemies, not with friendly/neutral players
+* collision with enemies, not with friendlies
+* no stacking in non-city areas
 
 ## Targeting
 
@@ -26,3 +34,13 @@
 ### Models
 
 * Revalation
+
+## Elements/Statuses
+
+* Elemental wheel/resistance tied to cc save, length and damage taken
+* Resistances tied to stats and adds to that resistance
+
+## Duration
+
+* Fights last longer than landing one skill
+* Damage spikes and impervious walls rare edge cases, but not impossible

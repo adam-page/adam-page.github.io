@@ -6,7 +6,7 @@
 
 ### Hex ground layout
 
-* collision?
+* collision with non-player enemies, not with friendly/neutral players
 
 ## Targeting
 

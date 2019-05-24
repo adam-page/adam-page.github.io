@@ -207,9 +207,17 @@ graph TD
 	Ranged-->Throwing
 	Ranged-->Shooting
 	Ranged-->Accuracy
+```
+
+```mermaid
+graph TD
 	Utility-->Manipulation
 	Utility-->Tools
 	Utility-->Buffs
+```
+
+```mermaid
+graph TD
 	Light-->Water
 	Light-->Earth
 	Light-->Metaphysical

@@ -7,7 +7,7 @@ category: [That Game]
 
 ---
 
-# That Game Character Prototype
+# {{page.title}}
 
 ## Character
 

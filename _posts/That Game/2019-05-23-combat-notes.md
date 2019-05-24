@@ -5,7 +5,7 @@ date:   2019-05-23
 category: [That Game]
 ---
 
-# Combat Notes
+# {{page.title}}
 
 #### From meeting on 05/23/2019
 

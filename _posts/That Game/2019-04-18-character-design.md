@@ -6,7 +6,7 @@ category: [That Game]
 
 ---
 
-# That Game Character Design
+# {{page.title}}
 
 ### Adam Page
 

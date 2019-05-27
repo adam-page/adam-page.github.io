@@ -7,7 +7,7 @@ category: [That Game]
 
 ---
 
-# That Game Character Prototype
+# {{page.title}}
 
 ## Character
 
@@ -194,3 +194,35 @@ Weapons are levelled based on usage while I like the idea of giving a flat % spl
 It would be important for hardcore multi-classers (looking at you Sim) to keep tracking experience even when the character level is max, as job levels can still be obtained, allowing for other class slots to occupy something like a fiendish dark-magic backstabbing rogue or a druidic bow-wielding healer.
 
 Lastly there’s a lot more room for improvement and expansion here. The idea was to get a basic character down to show that even for the most basic guy, there’s a lot going on. We could explore more frequent actives for either jobs or weapons, more/different jobs, and how weapons/magic interact vis-a-vis elemental grips or whatever else.
+
+## Future
+
+### Job Trees
+
+```mermaid
+graph TD
+	Martial-->Attack
+	Martial-->Defense
+	Martial-->Exposure
+	Ranged-->Throwing
+	Ranged-->Shooting
+	Ranged-->Accuracy
+```
+
+```mermaid
+graph TD
+	Utility-->Manipulation
+	Utility-->Tools
+	Utility-->Buffs
+```
+
+```mermaid
+graph TD
+	Light-->Water
+	Light-->Earth
+	Light-->Metaphysical
+	Dark-->Fire
+	Dark-->Wind
+	Dark-->Carnal
+```
+

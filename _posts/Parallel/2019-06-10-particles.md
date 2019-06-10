@@ -9,5 +9,5 @@ category: [Parallel]
 
 ### Video
 
-<video src="/assets/vid/particles.flv" width="650" height="350" controls></video>
+<video src="/assets/vid/particles.mp4" width="650" height="350" controls></video>
 

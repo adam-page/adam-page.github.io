@@ -8,6 +8,8 @@ permalink: /portfolio/
 
 ## About
 
+03/31/2020-Most of these samples are roughly 1-2 years old now. I'm not sure if I'll update this soon or just focus on populating the projects section, but if interested I can provide more current samples of any of the following areas.
+
 Below are code examples and a short excerpt about any difficulties faced in writing the code or design decisions made when designing the program. Some of the formatting is lost in the transition from Markdown to a Jekyll webpage. These excerpts are deliberately short and if longer samples are desired, please contact me. None of these code samples are perfect, and in some cases I have made significant improvements in my style and approach since writing them. I am always learning and improving, and in cases where the improvement is significant I point it out. This learning and improvement of the code I write is a *constant* process!
 
 ## Documentation
